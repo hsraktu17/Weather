@@ -1,0 +1,79 @@
+
+.weather-sunny {
+    background-color: #ffce00; 
+  }
+  
+  .weather-rainy {
+    background-color: #b0c4de; 
+  }
+  
+  .weather-cloudy {
+    background-color: #778899;
+  }
+
+  .current-weather {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .current-weather h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .current-weather p {
+    margin-bottom: 10px;
+  }
+  
+  .current-weather p:last-child {
+    margin-bottom: 0;
+  }
+
+
+  /* Inside App.css or any other CSS file you are using */
+
+.navbar {
+    background-color: #333; /* Dark background color for the navbar */
+    color: #fff; /* Text color for the navbar */
+    padding: 10px 20px; /* Padding around navbar content */
+    display: flex;
+    justify-content: space-between; /* Align items to the start and end of the navbar */
+    align-items: center; /* Vertically center items in the navbar */
+  }
+  
+  .navbar-logo {
+    font-size: 1.5rem; /* Adjust font size as needed */
+  }
+  
+  .navbar-search {
+    display: flex; /* Use flexbox to align search input and button */
+    align-items: center; /* Vertically center items in the search area */
+  }
+  
+  .navbar-search input[type="text"] {
+    padding: 8px 10px; /* Padding for the search input */
+    margin-right: 10px; /* Margin to separate input and button */
+    border-radius: 4px; /* Rounded corners for the input */
+    border: 1px solid #fff; /* White border for contrast */
+  }
+  
+  .navbar-search input[type="text"]::placeholder {
+    color: #ccc; /* Placeholder text color */
+  }
+  
+  .navbar-search button {
+    padding: 8px 16px; /* Padding for the search button */
+    background-color: #007bff; /* Blue background color for the button */
+    color: #fff; /* Text color for the button */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners for the button */
+    cursor: pointer; /* Show pointer cursor on hover */
+  }
+  
+  .navbar-search button:hover {
+    background-color: #0056b3; /* Darker blue color on button hover */
+  }
+  
